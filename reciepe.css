@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background-color: background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: rgb(24, 233, 191); */
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+}
+
+#navlist{
+    width: 100%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navlogo{
+    font-size: 2.8rem;
+    color: azure;
+}
+
+#navitem{
+    display: flex;
+    gap: 40px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.footerbox{
+    background-color: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+
+.footerbox p {
+    color: azure;
+    font-size: 2rem;
+}
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.rightbox img{
+    border-radius: 20px;
+}
+
+.leftbox{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.leftbox h2{
+    font-style: 2rem;
+}
+
+#barfi{
+    margin-top: 50px;
+    width: 700px;
+}
+
+#gulab{
+width: 700px;
+}
+
+#recipes{
+    margin-top: 230px;
+}
+
+#secondpage{
+    margin-top: 50px;
+}
